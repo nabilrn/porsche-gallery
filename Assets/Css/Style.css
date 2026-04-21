@@ -173,7 +173,7 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
 .mega-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 12px);
+  top: 100%;
   right: 0;
   min-width: 480px;
   background: var(--paper);
@@ -209,7 +209,8 @@ button { cursor: pointer; border: none; background: none; font: inherit; }
   transition: color 200ms ease;
 }
 .mega-menu__link:hover { color: var(--racing-red); }
-.dropdown:hover .mega-menu { display: block; }
+.dropdown:hover .mega-menu,
+.dropdown:focus-within .mega-menu { display: block; }
 
 /* Hamburger */
 .navbar__hamburger {
