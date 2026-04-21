@@ -1,0 +1,2010 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Porsche 911 — Racing Blueprint</title>
+        <link rel="icon" type="image/svg+xml" href="Assets/icon/porsche.svg" />
+        <link rel="stylesheet" href="Assets/Css/Style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Inter:wght@400;500&family=Space+Mono:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <header class="navbar" id="navbar">
+            <div class="navbar__logo">
+                <a href="https://www.porsche.com/pap/_indonesia_/">
+                    <img
+                        src="Assets/Image/Text_Logo_Porsche.png"
+                        alt="Porsche"
+                    />
+                </a>
+            </div>
+            <div class="navbar__coords">
+                <span class="mono"
+                    >LAT 48.7758° N &nbsp;·&nbsp; LON 9.1829° E &nbsp;·&nbsp;
+                    STUTTGART</span
+                >
+            </div>
+            <nav class="navbar__nav" id="navMenu">
+                <ul>
+                    <li>
+                        <a href="#About-Porsche" class="nav-link">Heritage</a>
+                    </li>
+                    <li>
+                        <a href="#Porsche-911" class="nav-link">Manifesto</a>
+                    </li>
+                    <li class="dropdown">
+                        <a
+                            href="#"
+                            class="nav-link dropbtn"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Model Overview</a
+                        >
+                        <div class="mega-menu" role="menu">
+                            <div class="mega-menu__inner">
+                                <div class="mega-menu__group">
+                                    <span class="mono mega-menu__label"
+                                        >LINEAGE 01</span
+                                    >
+                                    <a href="#Carrera" class="mega-menu__link"
+                                        >911 Carrera</a
+                                    >
+                                </div>
+                                <div class="mega-menu__group">
+                                    <span class="mono mega-menu__label"
+                                        >LINEAGE 02</span
+                                    >
+                                    <a href="#turbo" class="mega-menu__link"
+                                        >911 Turbo</a
+                                    >
+                                </div>
+                                <div class="mega-menu__group">
+                                    <span class="mono mega-menu__label"
+                                        >LINEAGE 03</span
+                                    >
+                                    <a href="#targa" class="mega-menu__link"
+                                        >911 Targa</a
+                                    >
+                                </div>
+                                <div class="mega-menu__group">
+                                    <span class="mono mega-menu__label"
+                                        >LINEAGE 04</span
+                                    >
+                                    <a href="#gt3" class="mega-menu__link"
+                                        >911 GT3</a
+                                    >
+                                </div>
+                                <div class="mega-menu__group">
+                                    <span class="mono mega-menu__label"
+                                        >LINEAGE 05</span
+                                    >
+                                    <a href="#dakar" class="mega-menu__link"
+                                        >911 Dakar</a
+                                    >
+                                </div>
+                                <div class="mega-menu__group">
+                                    <span class="mono mega-menu__label"
+                                        >LINEAGE 06</span
+                                    >
+                                    <a href="#ST" class="mega-menu__link"
+                                        >911 S/T</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <button
+                class="navbar__hamburger"
+                id="hamburger"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+            >
+                <span></span><span></span><span></span>
+            </button>
+        </header>
+
+        <main>
+            <!-- HERO SECTION -->
+            <section class="hero" aria-label="Hero">
+                <div class="hero__bg-grid" aria-hidden="true"></div>
+                <div class="hero__left">
+                    <p class="mono hero__doc-label">
+                        DOC-001 &nbsp;/&nbsp; PORSCHE AG &nbsp;/&nbsp;
+                        1963–PRESENT
+                    </p>
+                    <h1 class="hero__title">
+                        THE<br /><span class="hero__title--accent">911.</span>
+                    </h1>
+                    <p class="hero__sub">
+                        Its rear-engine layout, iconic silhouette, and
+                        relentless pursuit of performance make it the enduring
+                        standard of automotive excellence — six decades and
+                        still evolving.
+                    </p>
+                    <div class="hero__stats">
+                        <div class="hero__stat">
+                            <span class="mono hero__stat-label">MODELS</span>
+                            <span
+                                class="hero__stat-value"
+                                data-target="25"
+                                data-suffix="+"
+                                >0</span
+                            >
+                        </div>
+                        <div class="hero__stat">
+                            <span class="mono hero__stat-label"
+                                >HORSEPOWER</span
+                            >
+                            <span class="hero__stat-value" data-target="640"
+                                >0</span
+                            >
+                        </div>
+                        <div class="hero__stat">
+                            <span class="mono hero__stat-label"
+                                >0–100 KM/H</span
+                            >
+                            <span
+                                class="hero__stat-value"
+                                data-target="2.7"
+                                data-prefix=""
+                                data-suffix="s"
+                                data-decimal="1"
+                                >0</span
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__right">
+                    <div class="slider-frame" id="sliderFrame">
+                        <div class="slider-frame__top">
+                            <span class="mono slider-frame__fig" id="sliderFig"
+                                >FIG. 01 — 911 CARRERA</span
+                            >
+                            <span
+                                class="mono slider-frame__counter"
+                                id="sliderCounter"
+                                >01 / 05</span
+                            >
+                        </div>
+                        <div
+                            class="slider-frame__viewport"
+                            style="cursor: crosshair"
+                        >
+                            <div
+                                class="crosshair crosshair--tl"
+                                aria-hidden="true"
+                            ></div>
+                            <div
+                                class="crosshair crosshair--tr"
+                                aria-hidden="true"
+                            ></div>
+                            <div
+                                class="crosshair crosshair--bl"
+                                aria-hidden="true"
+                            ></div>
+                            <div
+                                class="crosshair crosshair--br"
+                                aria-hidden="true"
+                            ></div>
+                            <div class="slides" id="slides">
+                                <img
+                                    src="Assets/Image/Porsche911_Carrera.webp"
+                                    alt="Porsche 911 Carrera"
+                                    class="slide active"
+                                    data-label="911 CARRERA"
+                                />
+                                <img
+                                    src="Assets/Image/Porsche911_Carrera_4.webp"
+                                    alt="Porsche 911 Carrera 4"
+                                    class="slide"
+                                    data-label="911 CARRERA 4"
+                                />
+                                <img
+                                    src="Assets/Image/Porsche911_Carrera_4S.webp"
+                                    alt="Porsche 911 Carrera 4S"
+                                    class="slide"
+                                    data-label="911 CARRERA 4S"
+                                />
+                                <img
+                                    src="Assets/Image/Porsche911_Carrera_S.webp"
+                                    alt="Porsche 911 Carrera S"
+                                    class="slide"
+                                    data-label="911 CARRERA S"
+                                />
+                                <img
+                                    src="Assets/Image/Porsche911_Carrera_T.webp"
+                                    alt="Porsche 911 Carrera T"
+                                    class="slide"
+                                    data-label="911 CARRERA T"
+                                />
+                            </div>
+                        </div>
+                        <div class="slider-frame__bottom">
+                            <div class="slider-frame__dots" id="sliderDots">
+                                <button
+                                    class="dot active"
+                                    aria-label="Slide 1"
+                                ></button>
+                                <button
+                                    class="dot"
+                                    aria-label="Slide 2"
+                                ></button>
+                                <button
+                                    class="dot"
+                                    aria-label="Slide 3"
+                                ></button>
+                                <button
+                                    class="dot"
+                                    aria-label="Slide 4"
+                                ></button>
+                                <button
+                                    class="dot"
+                                    aria-label="Slide 5"
+                                ></button>
+                            </div>
+                            <div class="slider-frame__arrows">
+                                <button
+                                    class="arrow-btn"
+                                    id="prevBtn"
+                                    aria-label="Previous slide"
+                                >
+                                    <svg
+                                        width="20"
+                                        height="20"
+                                        viewBox="0 0 20 20"
+                                        fill="none"
+                                    >
+                                        <polyline
+                                            points="13,4 7,10 13,16"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                    <span class="mono">PREV</span>
+                                </button>
+                                <button
+                                    class="arrow-btn"
+                                    id="nextBtn"
+                                    aria-label="Next slide"
+                                >
+                                    <span class="mono">NEXT</span>
+                                    <svg
+                                        width="20"
+                                        height="20"
+                                        viewBox="0 0 20 20"
+                                        fill="none"
+                                    >
+                                        <polyline
+                                            points="7,4 13,10 7,16"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HERITAGE SECTION -->
+            <section id="About-Porsche" class="heritage reveal-section">
+                <div class="heritage__inner">
+                    <div class="heritage__left">
+                        <p class="mono section-marker">§ 01 — HERITAGE</p>
+                        <h2 class="display-heading">SINCE<br />1931.</h2>
+                    </div>
+                    <div class="heritage__right">
+                        <p class="heritage__body drop-cap">
+                            Porsche, founded by Ferdinand Porsche in 1931 in
+                            Stuttgart, Germany, boasts a storied history steeped
+                            in engineering innovation and motorsport success.
+                            Initially an automotive consulting and engineering
+                            firm, Porsche gained prominence with the design of
+                            the Volkswagen Beetle.
+                        </p>
+                        <p class="heritage__body">
+                            The iconic Porsche 911, launched in 1963, epitomizes
+                            the brand's legacy of rear-engine sports cars and
+                            remains a symbol of automotive excellence. Over the
+                            decades, Porsche diversified its lineup to include
+                            SUVs like the Cayenne and luxury sedans such as the
+                            Panamera.
+                        </p>
+                        <p class="heritage__body">
+                            With the recent introduction of electric and hybrid
+                            vehicles like the Porsche Taycan, the company
+                            continues to push the boundaries of automotive
+                            technology and redefine the future of driving.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline">
+                    <div class="timeline__track" aria-hidden="true"></div>
+                    <div class="timeline__items">
+                        <div class="timeline__item reveal-item">
+                            <span class="mono timeline__year">1931</span>
+                            <span
+                                class="timeline__tick"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="mono timeline__label"
+                                >Founded in Stuttgart</span
+                            >
+                        </div>
+                        <div class="timeline__item reveal-item">
+                            <span class="mono timeline__year">1948</span>
+                            <span
+                                class="timeline__tick"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="mono timeline__label"
+                                >Porsche 356 Launched</span
+                            >
+                        </div>
+                        <div class="timeline__item reveal-item">
+                            <span class="mono timeline__year">1963</span>
+                            <span
+                                class="timeline__tick"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="mono timeline__label"
+                                >Porsche 911 Debuts</span
+                            >
+                        </div>
+                        <div class="timeline__item reveal-item">
+                            <span class="mono timeline__year">2002</span>
+                            <span
+                                class="timeline__tick"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="mono timeline__label"
+                                >Cayenne SUV Launch</span
+                            >
+                        </div>
+                        <div class="timeline__item reveal-item">
+                            <span class="mono timeline__year">2019</span>
+                            <span
+                                class="timeline__tick"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="mono timeline__label"
+                                >Taycan Electric Era</span
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- MANIFESTO SECTION -->
+            <section id="Porsche-911" class="manifesto reveal-section">
+                <div class="manifesto__inner">
+                    <p class="mono section-marker">§ 02 — MANIFESTO</p>
+                    <h2 class="display-heading manifesto__heading">THE 911.</h2>
+                    <div
+                        class="manifesto__margin-left"
+                        aria-hidden="true"
+                    ></div>
+                    <div
+                        class="manifesto__margin-right"
+                        aria-hidden="true"
+                    ></div>
+                    <div class="manifesto__body">
+                        <p>
+                            Amidst the roaring engines and sleek curves of
+                            automotive history, the Porsche 911 stands as an
+                            enduring emblem of engineering brilliance and
+                            driving passion. Born in the crucible of
+                            competition, its genesis traces back to the
+                            visionary mind of Ferdinand Porsche.
+                        </p>
+                        <blockquote class="pull-quote">
+                            "A symphony of power and precision — a testament to
+                            the enduring legacy of Porsche's pursuit of
+                            perfection on wheels."
+                        </blockquote>
+                        <p>
+                            With its rear-engine layout, iconic silhouette, and
+                            relentless pursuit of performance, the 911 embodies
+                            the essence of automotive excellence. From
+                            conquering race circuits to dominating city streets,
+                            each iteration of the 911 tells a tale of evolution,
+                            blending tradition with innovation.
+                        </p>
+                    </div>
+                    <a
+                        href="https://www.porsche.com/international/models/911/"
+                        class="btn-outline"
+                    >
+                        <span class="mono">→ VIEW OFFICIAL SITE</span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- MODEL CATALOG -->
+            <section class="model-catalog reveal-section">
+                <div class="catalog-header">
+                    <p class="mono section-marker">§ 03 — MODEL CATALOG</p>
+                    <h2 class="display-heading">MODEL<br />CATALOG</h2>
+                    <p class="mono catalog-header__sub">
+                        26 VARIANTS ACROSS 6 LINEAGES
+                    </p>
+                    <div class="spec-bar">
+                        <span class="mono">UPDATED 2024</span>
+                        <span class="mono spec-bar__sep">·</span>
+                        <span class="mono">SCALE 1:1</span>
+                        <span class="mono spec-bar__sep">·</span>
+                        <span class="mono">SRC OFFICIAL PORSCHE AG</span>
+                    </div>
+                </div>
+
+                <!-- CARRERA -->
+                <div class="lineage-divider reveal-item">
+                    <span class="mono lineage-divider__num"
+                        >LINEAGE 01 / 06</span
+                    >
+                    <span class="lineage-divider__name">CARRERA</span>
+                </div>
+                <section
+                    id="Carrera"
+                    class="lineage-section"
+                    aria-label="Carrera Models"
+                >
+                    <div class="card-grid">
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-01</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera.webp"
+                                    alt="911 Carrera"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >379 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-02</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA T</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera T.webp"
+                                    alt="911 Carrera T"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >379 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-03</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA S</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera S.webp"
+                                    alt="911 Carrera S"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >450 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-04</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA S CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera S Cabriolet.webp"
+                                    alt="911 Carrera S Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >450 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-05</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA GTS</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera GTS.webp"
+                                    alt="911 Carrera GTS"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >473 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-06</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA GTS CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera GTS Cabriolet.webp"
+                                    alt="911 Carrera GTS Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >473 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-07</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera Cabriolet.webp"
+                                    alt="911 Carrera Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >379 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-08</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA 4S</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera 4s.webp"
+                                    alt="911 Carrera 4S"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >450 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-09</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA 4S CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera 4s Cabriolet.webp"
+                                    alt="911 Carrera 4S Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >450 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-10</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA 4</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera 4.webp"
+                                    alt="911 Carrera 4"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >379 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-11</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA 4 GTS</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera 4 GTS.webp"
+                                    alt="911 Carrera 4 GTS"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >473 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-12</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA 4 GTS CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera 4 GTS Cabriolet.webp"
+                                    alt="911 Carrera 4 GTS Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >473 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-13</span
+                                ><span class="mono spec-card__name"
+                                    >911 CARRERA 4 CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Carrera 4 Cabriolet.webp"
+                                    alt="911 Carrera 4 Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >379 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-14</span
+                                ><span class="mono spec-card__name"
+                                    >911 EDITION 50 YRS</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Edition 50 years porsche design.webp"
+                                    alt="911 Edition 50 Years Porsche Design"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >450 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- TURBO -->
+                <div class="lineage-divider reveal-item">
+                    <span class="mono lineage-divider__num"
+                        >LINEAGE 02 / 06</span
+                    >
+                    <span class="lineage-divider__name">TURBO</span>
+                </div>
+                <section
+                    id="turbo"
+                    class="lineage-section"
+                    aria-label="Turbo Models"
+                >
+                    <div class="card-grid">
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-15</span
+                                ><span class="mono spec-card__name"
+                                    >911 TURBO</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Turbo.webp"
+                                    alt="911 Turbo"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.8L BI-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >572 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-16</span
+                                ><span class="mono spec-card__name"
+                                    >911 TURBO CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Turbo Cabriolet.webp"
+                                    alt="911 Turbo Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.8L BI-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >572 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-17</span
+                                ><span class="mono spec-card__name"
+                                    >911 TURBO S</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Turbo S.webp"
+                                    alt="911 Turbo S"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.8L BI-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >640 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-18</span
+                                ><span class="mono spec-card__name"
+                                    >911 TURBO S CAB.</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Turbo S Cabriolet.webp"
+                                    alt="911 Turbo S Cabriolet"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.8L BI-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >640 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- TARGA -->
+                <div class="lineage-divider reveal-item">
+                    <span class="mono lineage-divider__num"
+                        >LINEAGE 03 / 06</span
+                    >
+                    <span class="lineage-divider__name">TARGA</span>
+                </div>
+                <section
+                    id="targa"
+                    class="lineage-section"
+                    aria-label="Targa Models"
+                >
+                    <div class="card-grid">
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-19</span
+                                ><span class="mono spec-card__name"
+                                    >911 TARGA 4</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 targa 4.webp"
+                                    alt="911 Targa 4"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >379 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-20</span
+                                ><span class="mono spec-card__name"
+                                    >911 TARGA 4S</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 targa 4s.webp"
+                                    alt="911 Targa 4S"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >450 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-21</span
+                                ><span class="mono spec-card__name"
+                                    >911 TARGA 4 GTS</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Targa 4 GTS.webp"
+                                    alt="911 Targa 4 GTS"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >473 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- GT3 -->
+                <div class="lineage-divider reveal-item">
+                    <span class="mono lineage-divider__num"
+                        >LINEAGE 04 / 06</span
+                    >
+                    <span class="lineage-divider__name">GT3</span>
+                </div>
+                <section
+                    id="gt3"
+                    class="lineage-section"
+                    aria-label="GT3 Models"
+                >
+                    <div class="card-grid">
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-22</span
+                                ><span class="mono spec-card__name"
+                                    >911 GT3</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 GT3.webp"
+                                    alt="911 GT3"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >4.0L NA FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >503 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-23</span
+                                ><span class="mono spec-card__name"
+                                    >911 GT3 TOURING</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Gt3 with touring Package.webp"
+                                    alt="911 GT3 with Touring Package"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >4.0L NA FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >503 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-24</span
+                                ><span class="mono spec-card__name"
+                                    >911 GT3 RS</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 GT3 RS.webp"
+                                    alt="911 GT3 RS"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >4.0L NA FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >518 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- DAKAR -->
+                <div class="lineage-divider reveal-item">
+                    <span class="mono lineage-divider__num"
+                        >LINEAGE 05 / 06</span
+                    >
+                    <span class="lineage-divider__name">DAKAR</span>
+                </div>
+                <section
+                    id="dakar"
+                    class="lineage-section"
+                    aria-label="Dakar Models"
+                >
+                    <div class="card-grid">
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-25</span
+                                ><span class="mono spec-card__name"
+                                    >911 DAKAR</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 Dakar.webp"
+                                    alt="911 Dakar"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >3.0L TWIN-TURBO FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >473 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">AWD</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <!-- S/T -->
+                <div class="lineage-divider reveal-item">
+                    <span class="mono lineage-divider__num"
+                        >LINEAGE 06 / 06</span
+                    >
+                    <span class="lineage-divider__name">S/T</span>
+                </div>
+                <section id="ST" class="lineage-section" aria-label="ST Models">
+                    <div class="card-grid">
+                        <article class="spec-card reveal-item">
+                            <div class="spec-card__header">
+                                <span class="mono">M-26</span
+                                ><span class="mono spec-card__name"
+                                    >911 S/T</span
+                                >
+                            </div>
+                            <div class="spec-card__img-wrap">
+                                <div
+                                    class="crosshair crosshair--tl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--tr"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--bl"
+                                    aria-hidden="true"
+                                ></div>
+                                <div
+                                    class="crosshair crosshair--br"
+                                    aria-hidden="true"
+                                ></div>
+                                <img
+                                    src="Assets/Image/911 ST.webp"
+                                    alt="911 S/T"
+                                    loading="lazy"
+                                />
+                            </div>
+                            <div class="spec-card__specs">
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >ENGINE</span
+                                    ><span class="mono spec-row__val"
+                                        >4.0L NA FLAT-6</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key">POWER</span
+                                    ><span class="mono spec-row__val"
+                                        >518 HP</span
+                                    >
+                                </div>
+                                <div class="spec-row">
+                                    <span class="mono spec-row__key"
+                                        >LAYOUT</span
+                                    ><span class="mono spec-row__val">RR</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </section>
+
+            <!-- THE ARCHITECT SECTION -->
+            <section class="architect reveal-section">
+                <div class="architect__inner">
+                    <div class="architect__left">
+                        <div class="blueprint-frame">
+                            <div
+                                class="crosshair crosshair--tl"
+                                aria-hidden="true"
+                            ></div>
+                            <div
+                                class="crosshair crosshair--tr"
+                                aria-hidden="true"
+                            ></div>
+                            <div
+                                class="crosshair crosshair--bl"
+                                aria-hidden="true"
+                            ></div>
+                            <div
+                                class="crosshair crosshair--br"
+                                aria-hidden="true"
+                            ></div>
+                            <figure>
+                                <img
+                                    src="Assets/Image/Ferdinand Porsche.jpg"
+                                    alt="Ferdinand Porsche, founder of Porsche AG"
+                                    class="architect__portrait"
+                                />
+                                <figcaption class="mono architect__caption">
+                                    SUBJECT: F. PORSCHE &nbsp;·&nbsp; 1875–1951
+                                    &nbsp;·&nbsp; PLATE 001
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="architect__crest-frame">
+                            <img
+                                src="Assets/Image/Porsche-Logo.png"
+                                alt="Porsche Crest"
+                                class="architect__crest"
+                            />
+                        </div>
+                    </div>
+                    <div class="architect__right">
+                        <p class="mono section-marker">§ 04 — THE ARCHITECT</p>
+                        <h2 class="display-heading">FERDINAND<br />PORSCHE.</h2>
+                        <div class="data-table">
+                            <div class="data-row">
+                                <span class="mono data-row__key">BORN</span
+                                ><span class="mono data-row__val"
+                                    >3 SEPTEMBER 1875</span
+                                >
+                            </div>
+                            <div class="data-row">
+                                <span class="mono data-row__key">DIED</span
+                                ><span class="mono data-row__val"
+                                    >30 JANUARY 1951</span
+                                >
+                            </div>
+                            <div class="data-row">
+                                <span class="mono data-row__key"
+                                    >CITIZENSHIP</span
+                                ><span class="mono data-row__val"
+                                    >AUSTRIA-HUNGARY · CZECHOSLOVAKIA ·
+                                    GERMANY</span
+                                >
+                            </div>
+                        </div>
+                        <blockquote class="architect__quote">
+                            "In the beginning, I looked around and could not
+                            find quite the car I dreamed of. So I decided to
+                            build it myself."
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__bg-lines" aria-hidden="true"></div>
+            <div class="footer__wordmark" aria-hidden="true">PORSCHE.</div>
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <p class="mono footer__col-label">CONTACT</p>
+                    <div class="footer__social">
+                        <a
+                            href="https://github.com/nabilrn"
+                            aria-label="GitHub"
+                            class="footer__social-link"
+                            ><i class="fab fa-github"></i
+                        ></a>
+                        <a
+                            href="https://www.instagram.com/nabilrizkinavisa?igsh=MTRoaG10am12NTI5MQ=="
+                            aria-label="Instagram"
+                            class="footer__social-link"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <p class="mono footer__col-label">NAVIGATION</p>
+                    <nav>
+                        <a href="#About-Porsche" class="footer__link mono"
+                            >Heritage</a
+                        >
+                        <a href="#Porsche-911" class="footer__link mono"
+                            >Manifesto</a
+                        >
+                        <a href="#Carrera" class="footer__link mono">Carrera</a>
+                        <a href="#turbo" class="footer__link mono">Turbo</a>
+                        <a href="#gt3" class="footer__link mono">GT3</a>
+                    </nav>
+                </div>
+                <div class="footer__col">
+                    <p class="mono footer__col-label">COLOPHON</p>
+                    <p class="mono footer__colophon">
+                        Built with HTML, CSS, JavaScript<br />No frameworks ·
+                        2024<br />Designed & Developed in Indonesia
+                    </p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <span class="mono"
+                    >© 2024 NABIL RIZKI NAVISA &nbsp;·&nbsp; DESIGNED &
+                    DEVELOPED IN INDONESIA</span
+                >
+                <span class="mono">-0.9471° S &nbsp;·&nbsp; 100.4172° E</span>
+            </div>
+        </footer>
+
+        <script src="Assets/Js/Slider.js"></script>
+    </body>
+</html>
